@@ -9,21 +9,104 @@
 /* Begin PBXBuildFile section */
 		068582F72C0C553E00835266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068582F62C0C553E00835266 /* AppDelegate.swift */; };
 		068582F92C0C553E00835266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068582F82C0C553E00835266 /* SceneDelegate.swift */; };
-		068582FB2C0C553E00835266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068582FA2C0C553E00835266 /* ViewController.swift */; };
 		068582FE2C0C553E00835266 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 068582FD2C0C553E00835266 /* Base */; };
 		068583002C0C554300835266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068582FF2C0C554300835266 /* Assets.xcassets */; };
 		068583032C0C554300835266 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 068583022C0C554300835266 /* Base */; };
+		0685830E2C0C72C700835266 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685830D2C0C72C700835266 /* SplashVC.swift */; };
+		068583122C0C734200835266 /* RootNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068583112C0C734200835266 /* RootNC.swift */; };
+		068583152C0C73A100835266 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068583142C0C73A100835266 /* Auth.storyboard */; };
+		0685831C2C0C74D000835266 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685831B2C0C74D000835266 /* KeychainManager.swift */; };
+		0685831F2C0C758400835266 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 0685831E2C0C758400835266 /* KeychainAccess */; };
+		068583212C0C797D00835266 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068583202C0C797D00835266 /* UserDefaultManager.swift */; };
+		068583242C0C7C5C00835266 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068583232C0C7C5C00835266 /* NSNotificationName.swift */; };
+		068583282C0C7D1800835266 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068583272C0C7D1800835266 /* LoginVC.swift */; };
+		0685832A2C0C7D2300835266 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068583292C0C7D2300835266 /* LoginVM.swift */; };
+		0685832D2C0C7D5200835266 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685832C2C0C7D5200835266 /* LoginScreen.swift */; };
+		068583302C0C89CC00835266 /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685832F2C0C89CC00835266 /* StoryBoarded.swift */; };
+		069915CF2C14710C008DD896 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 06D26E682C119FB6009808A8 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		069915D22C1493BA008DD896 /* BookListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069915D12C1493B9008DD896 /* BookListResponse.swift */; };
+		06CECAC72C12B44F00CFB2D8 /* BookListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CECAC62C12B44F00CFB2D8 /* BookListVM.swift */; };
+		06CECACB2C12B47A00CFB2D8 /* BookListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CECACA2C12B47A00CFB2D8 /* BookListScreen.swift */; };
+		06CECACD2C12B4A900CFB2D8 /* BookListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CECACC2C12B4A900CFB2D8 /* BookListVC.swift */; };
+		06CECACF2C12B4D600CFB2D8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CECACE2C12B4D600CFB2D8 /* Home.storyboard */; };
+		06D26E482C1033C8009808A8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E472C1033C8009808A8 /* NetworkManager.swift */; };
+		06D26E4C2C1034FC009808A8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 06D26E4B2C1034FC009808A8 /* Alamofire */; };
+		06D26E4E2C103E2E009808A8 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E4D2C103E2E009808A8 /* EndPoint.swift */; };
+		06D26E502C104351009808A8 /* BookStoreEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E4F2C104351009808A8 /* BookStoreEndPoint.swift */; };
+		06D26E522C104964009808A8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E512C104963009808A8 /* NetworkError.swift */; };
+		06D26E542C104CC3009808A8 /* BookStoreInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E532C104CC3009808A8 /* BookStoreInterceptor.swift */; };
+		06D26E572C1054CD009808A8 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E562C1054CD009808A8 /* SignUpVM.swift */; };
+		06D26E592C1054D8009808A8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E582C1054D8009808A8 /* SignUpVC.swift */; };
+		06D26E5C2C1054E7009808A8 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E5B2C1054E7009808A8 /* SignUpScreen.swift */; };
+		06D26E5E2C115911009808A8 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E5D2C115911009808A8 /* AuthRepository.swift */; };
+		06D26E602C115A1A009808A8 /* AuthRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E5F2C115A1A009808A8 /* AuthRemoteDataSource.swift */; };
+		06D26E622C116C62009808A8 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E612C116C62009808A8 /* LoginRequest.swift */; };
+		06D26E642C116CED009808A8 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E632C116CED009808A8 /* LoginResponse.swift */; };
+		06D26E662C11745A009808A8 /* SignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E652C11745A009808A8 /* SignUpRequest.swift */; };
+		06D26E692C119FB6009808A8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 06D26E682C119FB6009808A8 /* RealmSwift */; };
+		06D26E6C2C11A000009808A8 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E6B2C11A000009808A8 /* UserEntity.swift */; };
+		06D26E6E2C11A187009808A8 /* AuthLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E6D2C11A187009808A8 /* AuthLocalDataSource.swift */; };
+		06D26E712C11A2A6009808A8 /* AuthMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26E702C11A2A6009808A8 /* AuthMapper.swift */; };
+		06D9125D2C15908D005D2794 /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9125C2C15908D005D2794 /* BookRepository.swift */; };
+		06D9125F2C1590E7005D2794 /* BookRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9125E2C1590E7005D2794 /* BookRemoteDataSource.swift */; };
+		06D912622C15AAB7005D2794 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 06D912612C15AAB7005D2794 /* Kingfisher */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		069915D02C14710C008DD896 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				069915CF2C14710C008DD896 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		068582F32C0C553E00835266 /* BookStoreSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStoreSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068582F62C0C553E00835266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		068582F82C0C553E00835266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		068582FA2C0C553E00835266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		068582FD2C0C553E00835266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		068582FF2C0C554300835266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068583022C0C554300835266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		068583042C0C554300835266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0685830D2C0C72C700835266 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		068583112C0C734200835266 /* RootNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNC.swift; sourceTree = "<group>"; };
+		068583142C0C73A100835266 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		0685831B2C0C74D000835266 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		068583202C0C797D00835266 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		068583232C0C7C5C00835266 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		068583272C0C7D1800835266 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		068583292C0C7D2300835266 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		0685832C2C0C7D5200835266 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		0685832F2C0C89CC00835266 /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
+		069915D12C1493B9008DD896 /* BookListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListResponse.swift; sourceTree = "<group>"; };
+		06CECAC62C12B44F00CFB2D8 /* BookListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListVM.swift; sourceTree = "<group>"; };
+		06CECACA2C12B47A00CFB2D8 /* BookListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListScreen.swift; sourceTree = "<group>"; };
+		06CECACC2C12B4A900CFB2D8 /* BookListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListVC.swift; sourceTree = "<group>"; };
+		06CECACE2C12B4D600CFB2D8 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		06D26E472C1033C8009808A8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		06D26E4D2C103E2E009808A8 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		06D26E4F2C104351009808A8 /* BookStoreEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreEndPoint.swift; sourceTree = "<group>"; };
+		06D26E512C104963009808A8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		06D26E532C104CC3009808A8 /* BookStoreInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreInterceptor.swift; sourceTree = "<group>"; };
+		06D26E562C1054CD009808A8 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		06D26E582C1054D8009808A8 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		06D26E5B2C1054E7009808A8 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		06D26E5D2C115911009808A8 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		06D26E5F2C115A1A009808A8 /* AuthRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteDataSource.swift; sourceTree = "<group>"; };
+		06D26E612C116C62009808A8 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		06D26E632C116CED009808A8 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		06D26E652C11745A009808A8 /* SignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequest.swift; sourceTree = "<group>"; };
+		06D26E6B2C11A000009808A8 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		06D26E6D2C11A187009808A8 /* AuthLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLocalDataSource.swift; sourceTree = "<group>"; };
+		06D26E702C11A2A6009808A8 /* AuthMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMapper.swift; sourceTree = "<group>"; };
+		06D9125C2C15908D005D2794 /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
+		06D9125E2C1590E7005D2794 /* BookRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRemoteDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D912622C15AAB7005D2794 /* Kingfisher in Frameworks */,
+				06D26E692C119FB6009808A8 /* RealmSwift in Frameworks */,
+				0685831F2C0C758400835266 /* KeychainAccess in Frameworks */,
+				06D26E4C2C1034FC009808A8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +143,247 @@
 		068582F52C0C553E00835266 /* BookStoreSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0685832E2C0C89BA00835266 /* Utilities */,
+				068583222C0C7C4A00835266 /* Extensions */,
+				068583132C0C738300835266 /* Data */,
+				0685830B2C0C729400835266 /* Views */,
+				0685830A2C0C727000835266 /* Storyboards */,
 				068582F62C0C553E00835266 /* AppDelegate.swift */,
 				068582F82C0C553E00835266 /* SceneDelegate.swift */,
-				068582FA2C0C553E00835266 /* ViewController.swift */,
-				068582FC2C0C553E00835266 /* Main.storyboard */,
 				068582FF2C0C554300835266 /* Assets.xcassets */,
-				068583012C0C554300835266 /* LaunchScreen.storyboard */,
 				068583042C0C554300835266 /* Info.plist */,
 			);
 			path = BookStoreSwiftUI;
+			sourceTree = "<group>";
+		};
+		0685830A2C0C727000835266 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06CECACE2C12B4D600CFB2D8 /* Home.storyboard */,
+				068583142C0C73A100835266 /* Auth.storyboard */,
+				068582FC2C0C553E00835266 /* Main.storyboard */,
+				068583012C0C554300835266 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0685830B2C0C729400835266 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				068583102C0C732300835266 /* Navigations */,
+				0685830C2C0C729D00835266 /* VCs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0685830C2C0C729D00835266 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				06CECAC22C12B42900CFB2D8 /* BookList */,
+				068583252C0C7CF900835266 /* Auth */,
+				0685830F2C0C730900835266 /* Splash */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		0685830F2C0C730900835266 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0685830D2C0C72C700835266 /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		068583102C0C732300835266 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				068583112C0C734200835266 /* RootNC.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		068583132C0C738300835266 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E6F2C11A26D009808A8 /* Mappers */,
+				06D26E6A2C119FEF009808A8 /* Entities */,
+				068583162C0C749900835266 /* Network */,
+				068583182C0C74A700835266 /* Models */,
+				068583172C0C749E00835266 /* DataSources */,
+				06D26E492C1033DF009808A8 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		068583162C0C749900835266 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E472C1033C8009808A8 /* NetworkManager.swift */,
+				06D26E532C104CC3009808A8 /* BookStoreInterceptor.swift */,
+				06D26E4D2C103E2E009808A8 /* EndPoint.swift */,
+				06D26E4F2C104351009808A8 /* BookStoreEndPoint.swift */,
+				06D26E512C104963009808A8 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		068583172C0C749E00835266 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				0685831A2C0C74B600835266 /* Local */,
+				068583192C0C74B200835266 /* Remote */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		068583182C0C74A700835266 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E462C10339A009808A8 /* Response */,
+				06D26E452C103394009808A8 /* Request */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		068583192C0C74B200835266 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E5F2C115A1A009808A8 /* AuthRemoteDataSource.swift */,
+				06D9125E2C1590E7005D2794 /* BookRemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		0685831A2C0C74B600835266 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				0685831B2C0C74D000835266 /* KeychainManager.swift */,
+				068583202C0C797D00835266 /* UserDefaultManager.swift */,
+				06D26E6D2C11A187009808A8 /* AuthLocalDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		068583222C0C7C4A00835266 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				068583232C0C7C5C00835266 /* NSNotificationName.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		068583252C0C7CF900835266 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E552C1054BC009808A8 /* SignUp */,
+				068583262C0C7D0600835266 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		068583262C0C7D0600835266 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0685832B2C0C7D4400835266 /* Components */,
+				068583272C0C7D1800835266 /* LoginVC.swift */,
+				068583292C0C7D2300835266 /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0685832B2C0C7D4400835266 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0685832C2C0C7D5200835266 /* LoginScreen.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0685832E2C0C89BA00835266 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0685832F2C0C89CC00835266 /* StoryBoarded.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		06CECAC22C12B42900CFB2D8 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				06CECAC32C12B43A00CFB2D8 /* Components */,
+				06CECACC2C12B4A900CFB2D8 /* BookListVC.swift */,
+				06CECAC62C12B44F00CFB2D8 /* BookListVM.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		06CECAC32C12B43A00CFB2D8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				06CECACA2C12B47A00CFB2D8 /* BookListScreen.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		06D26E452C103394009808A8 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E612C116C62009808A8 /* LoginRequest.swift */,
+				06D26E652C11745A009808A8 /* SignUpRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		06D26E462C10339A009808A8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E632C116CED009808A8 /* LoginResponse.swift */,
+				069915D12C1493B9008DD896 /* BookListResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		06D26E492C1033DF009808A8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E5D2C115911009808A8 /* AuthRepository.swift */,
+				06D9125C2C15908D005D2794 /* BookRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		06D26E552C1054BC009808A8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E5A2C1054DA009808A8 /* Components */,
+				06D26E562C1054CD009808A8 /* SignUpVM.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		06D26E5A2C1054DA009808A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E5B2C1054E7009808A8 /* SignUpScreen.swift */,
+				06D26E582C1054D8009808A8 /* SignUpVC.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		06D26E6A2C119FEF009808A8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E6B2C11A000009808A8 /* UserEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		06D26E6F2C11A26D009808A8 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				06D26E702C11A2A6009808A8 /* AuthMapper.swift */,
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +396,19 @@
 				068582EF2C0C553E00835266 /* Sources */,
 				068582F02C0C553E00835266 /* Frameworks */,
 				068582F12C0C553E00835266 /* Resources */,
+				069915D02C14710C008DD896 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BookStoreSwiftUI;
+			packageProductDependencies = (
+				0685831E2C0C758400835266 /* KeychainAccess */,
+				06D26E4B2C1034FC009808A8 /* Alamofire */,
+				06D26E682C119FB6009808A8 /* RealmSwift */,
+				06D912612C15AAB7005D2794 /* Kingfisher */,
+			);
 			productName = BookStoreSwiftUI;
 			productReference = 068582F32C0C553E00835266 /* BookStoreSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +437,12 @@
 				Base,
 			);
 			mainGroup = 068582EA2C0C553E00835266;
+			packageReferences = (
+				0685831D2C0C758400835266 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				06D26E4A2C1034FC009808A8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				06D26E672C119FB6009808A8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				06D912602C15AAB7005D2794 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 068582F42C0C553E00835266 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +457,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068583152C0C73A100835266 /* Auth.storyboard in Resources */,
+				06CECACF2C12B4D600CFB2D8 /* Home.storyboard in Resources */,
 				068583002C0C554300835266 /* Assets.xcassets in Resources */,
 				068583032C0C554300835266 /* Base in Resources */,
 				068582FE2C0C553E00835266 /* Base in Resources */,
@@ -138,9 +472,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068582FB2C0C553E00835266 /* ViewController.swift in Sources */,
+				06D26E602C115A1A009808A8 /* AuthRemoteDataSource.swift in Sources */,
+				06D26E4E2C103E2E009808A8 /* EndPoint.swift in Sources */,
+				06D26E642C116CED009808A8 /* LoginResponse.swift in Sources */,
+				06CECACD2C12B4A900CFB2D8 /* BookListVC.swift in Sources */,
+				06CECAC72C12B44F00CFB2D8 /* BookListVM.swift in Sources */,
+				06D26E572C1054CD009808A8 /* SignUpVM.swift in Sources */,
+				06D26E502C104351009808A8 /* BookStoreEndPoint.swift in Sources */,
+				06D9125F2C1590E7005D2794 /* BookRemoteDataSource.swift in Sources */,
+				06CECACB2C12B47A00CFB2D8 /* BookListScreen.swift in Sources */,
+				06D26E662C11745A009808A8 /* SignUpRequest.swift in Sources */,
+				069915D22C1493BA008DD896 /* BookListResponse.swift in Sources */,
+				06D26E482C1033C8009808A8 /* NetworkManager.swift in Sources */,
+				068583212C0C797D00835266 /* UserDefaultManager.swift in Sources */,
+				068583242C0C7C5C00835266 /* NSNotificationName.swift in Sources */,
+				068583282C0C7D1800835266 /* LoginVC.swift in Sources */,
+				068583122C0C734200835266 /* RootNC.swift in Sources */,
 				068582F72C0C553E00835266 /* AppDelegate.swift in Sources */,
+				06D26E712C11A2A6009808A8 /* AuthMapper.swift in Sources */,
+				0685832A2C0C7D2300835266 /* LoginVM.swift in Sources */,
+				06D26E592C1054D8009808A8 /* SignUpVC.swift in Sources */,
+				06D26E5C2C1054E7009808A8 /* SignUpScreen.swift in Sources */,
+				06D26E522C104964009808A8 /* NetworkError.swift in Sources */,
+				06D26E5E2C115911009808A8 /* AuthRepository.swift in Sources */,
 				068582F92C0C553E00835266 /* SceneDelegate.swift in Sources */,
+				0685830E2C0C72C700835266 /* SplashVC.swift in Sources */,
+				06D26E542C104CC3009808A8 /* BookStoreInterceptor.swift in Sources */,
+				0685831C2C0C74D000835266 /* KeychainManager.swift in Sources */,
+				06D9125D2C15908D005D2794 /* BookRepository.swift in Sources */,
+				0685832D2C0C7D5200835266 /* LoginScreen.swift in Sources */,
+				06D26E6E2C11A187009808A8 /* AuthLocalDataSource.swift in Sources */,
+				068583302C0C89CC00835266 /* StoryBoarded.swift in Sources */,
+				06D26E6C2C11A000009808A8 /* UserEntity.swift in Sources */,
+				06D26E622C116C62009808A8 /* LoginRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +654,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBSLHJAF4T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookStoreSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +665,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +673,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.BookStoreSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,8 +689,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBSLHJAF4T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookStoreSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +700,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +708,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.BookStoreSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +741,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0685831D2C0C758400835266 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+		06D26E4A2C1034FC009808A8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		06D26E672C119FB6009808A8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.50.1;
+			};
+		};
+		06D912602C15AAB7005D2794 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0685831E2C0C758400835266 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0685831D2C0C758400835266 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		06D26E4B2C1034FC009808A8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06D26E4A2C1034FC009808A8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		06D26E682C119FB6009808A8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06D26E672C119FB6009808A8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		06D912612C15AAB7005D2794 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06D912602C15AAB7005D2794 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 068582EB2C0C553E00835266 /* Project object */;
 }
