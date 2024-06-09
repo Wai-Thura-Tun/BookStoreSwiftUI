@@ -7,8 +7,14 @@
 
 import Foundation
 
+enum CellType: String {
+    case BANNER
+    case CAROUSEL
+    case GRID
+}
+
 protocol BookListViewDelegate: AnyObject {
-    
+    func onError(error: String)
 }
 
 class BookListVM: ObservableObject {
@@ -18,11 +24,32 @@ class BookListVM: ObservableObject {
         }
     }
     
+    private let repository: BookRepository = .init()
+    
     private weak var delegate: BookListViewDelegate?
     
     init(delegate: BookListViewDelegate?) {
         self.delegate = delegate
     }
     
-    @Published var searchString: String = ""
+    @Published var searchString: String = "" {
+        didSet {
+            self.search = searchString
+        }
+    }
+    
+    @Published var data: [HomeData] = []
+    
+    @Published var isLoading: Bool = true
+    
+    func getBooks() {
+        repository.getBooks { [weak self] data in
+            self?.isLoading = false
+            self?.data = data
+            print(self?.data)
+        } onFailed: { [weak self] error in
+            self?.isLoading = false
+            self?.delegate?.onError(error: error)
+        }
+    }
 }

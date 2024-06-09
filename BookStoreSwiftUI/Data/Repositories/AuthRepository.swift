@@ -28,6 +28,7 @@ class AuthRepository {
                 catch {
                     onFailed(.UNKNOWN("Something went wrong"))
                 }
+                UserDefaults.setOldUser()
                 KeychainManager.shared.saveToken(for: token)
             }, onFailed: onFailed
         )

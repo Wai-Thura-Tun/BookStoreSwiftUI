@@ -19,6 +19,7 @@ class BookListVC: UIViewController, StoryBoarded {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        vm.getBooks()
         showScreen()
     }
 
@@ -33,5 +34,7 @@ class BookListVC: UIViewController, StoryBoarded {
 }
 
 extension BookListVC: BookListViewDelegate {
-    
+    func onError(error: String) {
+        print(error)
+    }
 }

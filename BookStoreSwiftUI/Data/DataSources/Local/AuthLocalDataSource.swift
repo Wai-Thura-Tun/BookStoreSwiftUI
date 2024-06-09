@@ -18,7 +18,7 @@ class AuthLocalDataSource {
     
     func saveUserInfo(for user: UserVO) throws {
         try realm.write {
-            realm.add(user.toEntity())
+            realm.add(user.toEntity(), update: .all)
         }
     }
     
